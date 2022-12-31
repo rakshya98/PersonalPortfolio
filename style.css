@@ -1,0 +1,155 @@
+.nav-link{
+    font-size: 1.3rem;
+}
+
+.about-img{
+    margin-left: -100px;
+    right: -60px;
+   
+   }
+.about-img img{
+    border-radius: 50%;
+    height:fit-content;
+}
+.about-img{
+  margin-left: -100px;
+  right: -60px;
+ }
+ 
+ .display-1{
+   font-size: 160px;
+   font-weight: 1000;
+   
+ }
+  
+ .position-absolute{
+   font-weight: 700;
+   
+ }
+ 
+ 
+ 
+ .btn{
+   border: 2px solid rgb(29, 105, 247);
+ } 
+ /* .btn-white{
+   background-color: #ffffff;
+   border:2px solid #ffffff;
+ } */
+ .btn-blue{
+   border: 2.4px solid #ffffff;
+   color: #ffffff;
+ }
+ 
+ 
+   /* =================== Service Section ==================*/
+.service-h4{
+    padding-bottom: 30px;
+  }
+  
+  
+  
+  .service-box{
+
+    box-shadow: 0px 1px 7px #000;  
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .service-box-marketing{
+    box-shadow: 0px 1px 7px #000;  
+    margin-left: 20px;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: aquamarine;
+  }
+  .service-box-marketing:hover{
+    
+    box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+   background-color: #fff;
+  }
+  .service-box:hover{
+    
+    box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
+   background-color: aquamarine;
+  }
+
+   .text-success{
+    font-size: 1.5rem;
+  }
+
+.list-group-item{
+    box-shadow: 0px 1px 7px #000;
+   height: 10vh;
+   font-size: 2rem;
+   display: flex;
+   justify-content: flex-end;
+}
+
+.even {
+    background-color: aquamarine;
+   
+}
+
+
+/* =================== Gallery section ==================*/
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  filter: brightness(0.5);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+.column img:hover {
+  filter:brightness(1);
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
+  }
+}
+
+/* =================== Gallery section End ==================*/
+
+.info-box {
+  align-items: center;
+  display: flex;
+}
+
+.info-box img {
+  width: 150px;
+}
+
+.home img{
+    width: 550px;
+  }
